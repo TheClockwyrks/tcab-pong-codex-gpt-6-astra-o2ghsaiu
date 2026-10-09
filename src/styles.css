@@ -1,0 +1,6 @@
+/* Preserve the page's viewport-sized surface when the runtime writes inline
+   pixel dimensions. The engine still owns backing-store sizing and field fit. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
